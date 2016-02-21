@@ -28,7 +28,6 @@ Let's assume we have a 500x300px svg graph in illustrator and want to show a sma
 <svg class="sym-mygraphic2" height="100" viewbox="0 0 500 300">
 	<use xlink:href="#sym-mygraphic1"></use>
 </svg>
-
 ```
 Here `viewbox` says: "dont crop/clip it, show the whole svg without offset (0 0).
 
