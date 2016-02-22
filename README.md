@@ -32,7 +32,8 @@ Let's assume we have a 500x300px svg graph in illustrator and want to show a sma
 Here `viewbox` says: "dont crop/clip it, show the whole svg without offset (0 0).
 
 The four values in `viewbox` are:
->####( startX , startY , length-to-cover-X, length-to-cover-Y )
+> ####( startX , startY , length-to-cover-X, length-to-cover-Y )
+
 
 The `width` and `height` attributes are optional and define how big / small to display our symbol. In this case we are scaling down our symbol to 200 pixels high and missing width is assumed to be auto.
 If we don't specify `width` and `height` attributes, the SVG element takes up the whole space of its container.
